@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- 包含头部信息用于适应不同设备 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JavaScript 放置在文档最后面可以使页面加载速度更快 -->
+    <!-- 可选: 包含 jQuery 库 -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- 可选: 合并了 Bootstrap JavaScript 插件 -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- 包含 bootstrap 样式表 -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../../img/tiger.ico" type="image/x-icon"/>
+    <title>Bootstrap 表格</title>
+</head>
+<body>
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .table 为任意表格添加基本样式 (只有横向分隔线):</caption>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .table-striped 类在 tbody 内添加斑马线形式的条纹 ( IE8 不支持):</caption>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .table-bordered 类为所有表格的单元格添加边框:</caption>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>Table</h2>
+        <caption> .table-hover 类启用表格中 tbody 上的行的悬停效果：</caption>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .table-condensed 类让表格更加紧凑:</caption>
+        <table class="table table-condensed">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption>联合使用所有表格类:</caption>
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .success 类表示执行成功的操作：</caption>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="success">
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .active 类将悬停的颜色应用在行或者单元格上:</caption>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="active">
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .info 类表示信息变化的操作:</caption>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="info">
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .warning 类表示一个警告操作:</caption>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="warning">
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>表格</h2>
+        <caption> .danger 类表示一个危险的操作:</caption>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="danger">
+                <td>1</td>
+                <td>Anna</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Debbie</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table">
+            <caption>响应式表格布局</caption>
+            <thead>
+            <tr>
+                <th>产品</th>
+                <th>付款日期</th>
+                <th>状态</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>产品1</td>
+                <td>23/11/2013</td>
+                <td>待发货</td>
+            </tr>
+            <tr>
+                <td>产品2</td>
+                <td>10/11/2013</td>
+                <td>发货中</td>
+            </tr>
+            <tr>
+                <td>产品3</td>
+                <td>20/10/2013</td>
+                <td>待确认</td>
+            </tr>
+            <tr>
+                <td>产品4</td>
+                <td>20/10/2013</td>
+                <td>已退货</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- 包含头部信息用于适应不同设备 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JavaScript 放置在文档最后面可以使页面加载速度更快 -->
+    <!-- 可选: 包含 jQuery 库 -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- 可选: 合并了 Bootstrap JavaScript 插件 -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- 包含 bootstrap 样式表 -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../../img/tiger.ico" type="image/x-icon"/>
+    <title>内联表单</title>
+</head>
+<!--
+    Bootstrap 提供了下列类型的表单布局：
+        垂直表单（默认）
+        内联表单
+        水平表单
+ -->
+<body>
+    <!--  如果需要创建一个表单，它的所有元素是内联的，向左对齐的，标签是并排的，请向 <form> 标签添加 class .form-inline。
+     默认情况下，Bootstrap 中的 input、select 和 textarea 有 100% 宽度。在使用内联表单时，您需要在表单控件上设置一个宽度。
+    使用 class .sr-only，您可以隐藏内联表单的标签。-->
+    <form class="form-inline" role="form">
+        <div class="form-group">
+            <label class="sr-only" for="name">名称</label>
+            <input type="text" class="form-control" id="name" placeholder="请输入名称">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="inputfile">文件输入</label>
+            <input type="file" id="inputfile">
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox">请打勾
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">提交</button>
+    </form>
+</body>
+</html>
